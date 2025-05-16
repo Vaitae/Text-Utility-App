@@ -65,7 +65,6 @@ npm start
 - CSS3
 - JavaScript ES6+
 - React Hooks
-- React Context API (for state management)
 
 ## Performance
 
