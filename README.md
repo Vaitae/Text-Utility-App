@@ -26,7 +26,7 @@ Try it live: [Text Utils Demo](https://vaitae.github.io/Text-Utility-App/)
 
 1. Clone this repository
 bash
-git clone https://github.com/yourusername/text-utils.git
+git clone https://github.com/Vaitae/Text-Utility-App.git
 
 
 2. Navigate to the project directory
