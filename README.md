@@ -1,58 +1,99 @@
-# Text Utils App
+# Text Utils
 
-A simple and intuitive text utility app built with **React** that allows users to perform various operations on their input text. Whether you want to convert your text to uppercase, lowercase, title case, or remove unnecessary spaces — Text Utils has got you covered!
-
+A modern, lightweight text utility application built with React that helps users manipulate and analyze text with ease.
 
 ## Features
 
--  **Convert to Uppercase**  
-  Transform all characters in the text to uppercase.
+- *Text Transformation*
+  - Convert text to UPPERCASE
+  - Convert text to lowercase
+  - Convert text to Title Case
+  - Remove extra spaces
+- *Text Analysis*
+  - Reading time estimation
+  - Character count
+  - Word count
+- *Utility Functions*
+  - Copy text to clipboard
+  - Clear text
+  - Real-time text preview
 
-- **Convert to Lowercase**  
-  Transform all characters in the text to lowercase.
+## Demo
 
-- **Convert to Title Case**  
-  Capitalize the first letter of each word.
+Try it live: [Text Utils Demo](https://vaitae.github.io/Text-Utility-App/)
 
-- **Copy Text**  
-  Instantly copy the entire text to the clipboard.
+## Installation
 
-- **Remove Extra Spaces**  
-  Clean up your text by removing unnecessary spaces.
+1. Clone this repository
+bash
+git clone https://github.com/yourusername/text-utils.git
 
-- **Clear Text**  
-  Quickly clear all content from the text area.
 
-- **Reading Time Estimation**  
-  Displays how much time it would take to read the input text.
+2. Navigate to the project directory
+bash
+cd text-utils
 
-- **Live Preview**  
-  Real-time preview of your formatted text.
 
+3. Install dependencies
+bash
+npm install
+
+
+4. Start the development server
+bash
+npm start
+
+
+5. Open your browser and visit http://localhost:3000
+
+## Usage
+
+1. Enter or paste your text in the input area
+2. Choose any operation button to transform your text:
+   - *Uppercase*: Converts all text to uppercase
+   - *Lowercase*: Converts all text to lowercase
+   - *Title Case*: Capitalizes first letter of each word
+   - *Remove Spaces*: Removes extra spaces between words
+3. View the transformed text in the preview section
+4. Check the reading time and word/character counts that update in real-time
+5. Use the *Copy* button to copy the transformed text to clipboard
+6. Use the *Clear* button to reset all fields
 
 ## Tech Stack
 
-- **React**
-- **JavaScript**
-- **HTML**/**CSS**
+- React.js
+- CSS3
+- JavaScript ES6+
+- React Hooks
+- React Context API (for state management)
 
+## Performance
 
+- Lightweight (<100KB)
+- Fast and responsive
+- Works offline (PWA ready)
 
-##  Installation
+## Project Structure
 
-To run this project locally:
-
-```bash
-git clone https://github.com/your-username/text-utils-react.git
-cd text-utils-react
-npm install
-npm start
 ```
-The app will be available at `http://localhost:3000`
+text-utils/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── TextForm.js
+│   │   ├── Navbar.js
+│   │   ├── Alert.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+```
 
-## Usage
-1. Enter your text in the text area.
+---
 
-2. Click any of the buttons to perform the respective transformation or operation.
-
-3. View the reading time and preview below the editor.
+If you found this project useful, please consider giving it a star on GitHub!
